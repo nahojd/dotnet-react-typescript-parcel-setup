@@ -2,7 +2,7 @@ import * as React from "react";
 import { render } from "react-dom";
 
 export const App = () => {
-	const message = "Hello, my world!";
+	const message = "Hello, world!";
 
 	return <h1>{message}</h1>;
 };
