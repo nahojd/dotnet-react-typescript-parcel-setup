@@ -3,3 +3,9 @@
 h1 {
 	color: lime !important;
 }
+
+.my-grid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
