@@ -1,8 +1,9 @@
 import * as React from "react";
 import { render } from "react-dom";
+import { getMessage } from "./Message";
 
 export const App = () => {
-	const message = "Hello, world!";
+	const message = getMessage();
 
 	return <h1>{message}</h1>;
 };
