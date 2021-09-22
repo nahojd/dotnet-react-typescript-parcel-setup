@@ -2,7 +2,9 @@ import * as React from "react";
 import { render } from "react-dom";
 
 export const App = () => {
-	return <h1>Hello, world!</h1>;
+	const message = "Hello, my world!";
+
+	return <h1>{message}</h1>;
 };
 
 const app = document.getElementById("app-container");
