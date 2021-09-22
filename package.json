@@ -9,7 +9,6 @@
   "devDependencies": {
     "@parcel/config-default": "^2.0.0-rc.0",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "@parcel/transformer-typescript-tsc": "^2.0.0-alpha.3",
     "@types/jest": "^27.0.2",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
@@ -17,6 +16,7 @@
     "parcel": "^2.0.0-rc.0",
     "ts-jest": "^27.0.5"
   },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "targets": {
     "js": {
       "source": "scripts/index.ts",
