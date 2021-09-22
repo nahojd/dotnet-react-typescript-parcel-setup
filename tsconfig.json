@@ -6,6 +6,7 @@
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
 		"esModuleInterop": true,
+		"isolatedModules": true,
 		"jsx": "react"
 	}
 }
