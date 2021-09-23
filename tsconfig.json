@@ -7,6 +7,9 @@
 		"noFallthroughCasesInSwitch": true,
 		"esModuleInterop": true,
 		"isolatedModules": true,
-		"jsx": "react"
+		"jsx": "react",
+		"moduleResolution": "node",
+		"skipLibCheck": true,
+		"types": ["node", "jest"]
 	}
 }
